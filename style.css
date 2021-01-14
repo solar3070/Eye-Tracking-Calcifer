@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.캘시퍼 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 600px;
+    background: url('calcifer.png') no-repeat;
+    background-size: contain;
+    transform: translate(-50%,-50%);
+}
+
+.눈들 {
+    display: flex;
+    position: absolute;
+    top: 235px;
+    left: 338px;
+}
+
+.눈 {
+    position: relative;
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    transform: scaleX(0.9);
+}
+
+.눈-1 {
+    width: 50px;
+    height: 55px;
+    left: 80px;
+    top:-8px;
+}
+
+.눈-2 {
+    left: 160px;
+}
+
+.눈동자 {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 20px;
+    height: 45px;
+}
+
+.눈동자:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: inherit;
+    height:20px;
+    border-radius: 50%;
+    background-color: #20160E;
+}
